@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { env } from './Environment';
+import { env } from './environment';
 import { logService } from '../services/logService';
 
 export async function connectDatabase() {
